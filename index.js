@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   try {
     const userID = req.url;
-    const userHost = process.env.HOST || "vgo.paumard.com";
+    const userHost = process.env.HOST || "bg.viiic.net";
     const userTPass = process.env.HOST;
 
     
